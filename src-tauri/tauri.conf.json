@@ -12,7 +12,12 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "window": {
+        "setSize": true
+      },
+      "notification": {
+        "all": true 
+      }
     },
     "bundle": {
       "active": true,
@@ -59,7 +64,7 @@
         "height": 600,
         "resizable": true,
         "title": "focus",
-        "width": 400
+        "width": 800
       }
     ]
   }
